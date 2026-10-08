@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    height: 600px;
+    width: 900px;
+    background-color: aqua;
+    position: relative;
+    overflow: auto;
+    font-size: 30px;
+    margin: 900px;
+}
+.chile1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 15px;
+    overflow: hidden;
+}
+.chile2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(55, 255, 0);
+    position: absolute;
+    top: 600px;
+    left: 600px;
+    z-index: 15;
+}
+.chile3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(60, 0, 255);
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    
+}
+.chile4{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(210, 37, 204);
+    position: absolute;
+    bottom: 40px;
+    right: 90px;
+}

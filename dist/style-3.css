@@ -1,0 +1,39 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 900;
+    font-style: italic;
+    color: chartreuse;
+    background-color: blueviolet;
+    border-radius: 20px;
+    
+}
+
+ p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 900;
+    text-align: justify;
+    
+ }
+ 
+.parent{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: end;
+    text-decoration: double;
+}
+.text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3cqmax;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: justify;
+    text-decoration: underline;
+
+}

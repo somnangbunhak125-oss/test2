@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.product-control{
+    height: 800px;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    gap: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+   
+}
+.product{
+    height: 100%;
+    width: 100%;
+}
+.product-image{
+    height: 75%;
+    width: 100%;
+    padding: 10px ;
+   
+}
+.product-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit:cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.imgae-item{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    object-fit: contain;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+
+   
+}
+.item1{
+    height: 100%;
+    width: 100%;
+   
+
+}
+.item1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     transition: all 0.5s ease-in-out;
+
+}
+.item1:hover{
+
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.item2{
+    height: 100%;
+    width: 100%;
+   
+
+}
+.item2 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.item2:hover{
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.item3{
+    height: 100%;
+    width: 100%;
+   
+
+}
+.item3 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.item3:hover{
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.item4{
+    height: 100%;
+    width: 100%;
+    
+}
+.item4 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.item4:hover{
+
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.des{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.des-title1{
+    height: 20%;
+    width: 80%;
+   
+}
+h2{
+    color: rgb(42, 45, 47);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+.des-title2{
+    height: 10%;
+    width: 100%;
+    display: flex;
+
+   
+}
+.title2-icon{
+    height: 100%;
+    width: 50%;
+    
+}
+.title2-icon img{
+    height: 50%;
+    width: 100%;
+    margin-top: 20px;
+   
+    
+
+}
+.title2-number{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 900;
+}
+.des-title3{
+    height: 10%;
+    width: 100%;
+
+   
+}
+del{
+   font-size: 30px;
+    color: rgb(99, 101, 102);
+    
+}
+.des-title4{
+    height: 10%;
+    width: 100%;
+    display: flex;
+   
+}
+h1{
+    height: 100%;
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    
+}
+.title4-p{
+    height: 60%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    background-color: rgb(146, 146, 229);
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 10px;
+    margin-right: 50px;
+    
+    
+   
+    
+}
+.des-title5{
+    height: 20%;
+    width: 100%;
+   
+}
+span{
+    color: rgb(33, 35, 36);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.des-title6{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+    gap: 10px;
+   
+}
+.title6-icon1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     border-radius: 20px;
+     padding: 10px 0;
+
+     
+}
+.title6-icon1:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: aqua;
+}
+.icon1-icon{
+    height: 100%;
+    width: 50%;
+    
+    
+}
+.icon1-span{
+    height: 100%;
+    width: 200%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+}
+.title6-icon2{
+    height: 100%;
+    width: 100%;
+    display:flex;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     border-radius: 20px;
+     padding: 10px 0;
+}
+.icon2-icon{
+    height: 100%;
+    width: 50%;
+    
+}
+.icon2-span{
+    height: 100%;
+    width: 200%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+}
+.title6-icon2:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: aqua;
+}
+.title6-icon3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     border-radius: 20px;
+     padding: 10px 0;
+}
+.icon3-icon{
+    height: 100%;
+    width: 50%;
+}
+.icon3-span{
+    height: 100%;
+    width: 200%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+}
+.title6-icon3:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: aqua;
+}
+.des-title7{
+    height: 20%;
+    width: 100%;
+    padding: 20px ;
+   
+}
+.Add {
+    height: 50%;
+    width: 90%;
+    background-color: rgb(230, 114, 178);
+    margin: 3px 25px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-weight: 800;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.buy {
+     height: 50%;
+    width: 90%;
+    background-color: rgb(93, 2, 29);
+    margin: 8px 25px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-weight: 800;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+}
+.Add:hover{
+    background-color: rgb(58, 229, 232);
+}
+.buy:hover{
+    background-color: aqua;
+}

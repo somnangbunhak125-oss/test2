@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+}
+.logo{
+    height: 50%;
+    width: 100%;
+    background-color: rebeccapurple;
+    display: flex;
+}
+.petcher{
+    height: 100%;
+    width: 30%;
+    background-color: khaki;
+   
+}
+img{
+    width: 50%;
+    height: 100%;
+    object-fit:contain;
+    background-color: aqua;
+}
+.span1{
+    width: 50%;
+    height: 100%;
+    background-color: aquamarine;
+    font-size: 40px;
+    color: rgb(246, 37, 106);
+    font-weight: 600;
+    
+   
+  
+}
+.address{
+    height: 100%;
+    width: 30%;
+    background-color: blue;
+}
+.login{
+    height: 100%;
+    width: 10%;
+    background-color: tomato;
+}
+.sing-up{
+    height: 100%;
+    width: 20%;
+    background-color: teal;
+}
+.en{
+    height: 100%;
+    width: 10%;
+    background-color: hotpink;
+}
+
+
+
+
+.munu{
+    height: 50%;
+    width: 100%;
+    background-color: red;
+    display: flex;
+}
+.munu-icon{
+    height: 100%;
+    width: 50%;
+    background-color:sandybrown;
+    display: flex;
+}
+.dilivery{
+    height: 100%;
+    width: 15%;
+    background-color: mediumseagreen;
+}
+.pick-up{
+    height: 100%;
+    width: 15%;
+    background-color: rgb(120, 43, 101);
+}
+.shops{
+    height: 100%;
+    width: 15%;
+    background-color: rgb(95, 92, 183);
+}
+
+
+
+.search{
+    width: 50%;
+    height: 100%;
+    background-color: mediumseagreen;
+}
+.search-dishes{
+    height:100%;
+    width: 50%;
+    background-color: chocolate;
+}
+
+.product{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(132, 121, 121);
+    display: flex;
+    
+}
+
+.informetion{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(200, 255, 0);
+}
+.minuy{
+    height: 100%;
+    width: 70%;
+    background-color: rgb(55, 253, 253);   
+}

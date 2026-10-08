@@ -1,0 +1,13 @@
+.parent{
+    background-color: aqua;
+    height: 300px;
+    width: 400px;
+    position: relative;
+    left: 200px;
+    bottom: 20px;
+}
+.chile{
+    position: relative;
+    left: 100px;
+    
+}

@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent h1{
+    color: blue;
+    text-transform: capitalize;
+    text-align: center;
+}
+.parent p{
+    text-transform: capitalize;
+    text-align: center;
+    font-style: italic;
+
+}
+
+
+.parent1 h6{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.parent1 p{
+    text-transform: capitalize;
+    
+}
+
+.parent2 h6{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.parent2 h5{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-top: 0;
+    
+}
+.parent2 p{
+    text-transform: capitalize;
+    font-style: italic;
+    color: grey;
+}
+.parent12 p{
+    text-transform: capitalize;
+}
+.parent3 h1{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.parent3 p{
+    text-transform: capitalize;
+    
+}
+
+.parent4 h1{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.parent4 p{
+    text-transform: capitalize;
+    
+}

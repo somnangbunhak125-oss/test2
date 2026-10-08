@@ -1,0 +1,100 @@
+.parent{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid greenyellow;
+    margin-top: 100px;
+    cursor: pointer;
+    box-shadow: 10px,12px,20px sandybrown;
+}
+.parent:hover{
+    background-color: blueviolet;
+}
+button{
+    width: 200px;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: red;
+    border: none;
+    border-radius: 50px;
+    margin-left: 650px;
+    margin-top: 20px;
+    font-style: italic;
+}
+button:active{
+    background-color: brown;
+    
+}
+label{
+    color: blue;
+    font-size: 30px;
+}
+input{
+    font-size: 30px;
+    background-color: rebeccapurple;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    
+}
+input:focus{
+    background-color: chartreuse;
+    border: none;
+    
+}
+a{
+    width: 10px;
+    height: 20px;
+    background-color: aqua;
+    font-size: 40px;
+    margin-left: 300px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+a:link{
+    color: rgb(45, 30, 210);
+    
+}
+a:visited{
+    color: firebrick;
+    
+}
+.chile{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 50px;
+    font-weight: 900;
+    text-decoration: underline double greenyellow;
+    cursor: pointer;
+    font-size: 50px;
+}
+.chile :first-child{
+    color: aqua;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+}
+.chile :last-child{
+    color: red;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.chile :nth-child(2){
+    color: gold;
+    font-size: 50px;
+}
+.chile :nth-child(3){
+    color: blue;
+    font-size: 60px;
+}

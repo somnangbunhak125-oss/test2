@@ -1,0 +1,36 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: gold;
+    animation: test 0.9s ease-in-out infinite alternate;
+    border-radius: 100%;
+    margin-top: 200px;
+    cursor: pointer;
+    border: 50px solid rgb(231, 31, 151);
+    padding: 40px ;
+    margin: 20px;
+    transform: scaleX(10px);
+}
+@keyframes test{
+    0%{
+       transform: scaleX(0) ;
+    }
+    10%{
+        transform: scaleX(10px) ;
+    }
+     40%{
+        transform: scaleX(40px) ;
+    }
+     70%{
+        transform: scaleX(70px) ;
+    }
+    100%{
+        transform: scaleX(100px) ;
+    }
+}

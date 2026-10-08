@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.parent{
+    width: 400px;
+    height: 400px;
+    background-color: hotpink;
+    animation: test 0.91s ease-in-out infinite alternate;
+    transform: translate(200px,300px);
+    transform: rotate(45deg);
+    border: 20px solid greenyellow;
+    border-radius: 100px;
+}
+@keyframes test{
+    0%{
+        transform: rotate(0);
+    }
+   100%{
+        transform: rotate(360deg);
+    }
+}

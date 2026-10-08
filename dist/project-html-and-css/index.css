@@ -1,0 +1,282 @@
+nav{
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+.logo{
+    height: 100%;
+    width: 50%; 
+}
+img{
+    height: 100%;
+    width: 50%;   
+}
+.option{
+    height: 100%;
+    width: 50%;
+     display: flex;
+}
+.home{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Menu{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.App{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Contact-Us{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Search{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    font-size: 20px;
+    font-weight: 600;
+}
+button{
+    width: 90%;
+    height: 40%;
+    border-radius: 5px;
+    border: none;
+    font-size: 10px;
+    background-color: rgb(239, 234, 234);
+    color: rgb(21, 20, 20);
+   padding-right: 100px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.background{
+    height: 500px;
+    width: 100%;  
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+.img1{
+    height: 100%;
+    width: 100%;  
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.title{
+    font-size: 30px;
+    
+}
+.poster-menu{
+    width: 100%;
+    height: 1300px;
+   
+    
+}
+.menu1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 10px;
+    
+   
+   
+}
+.menu1-coffee1{
+    height: 100%;
+    width: 25%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+   
+    
+}
+
+.img2{
+    height: 55%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.title1{
+    height: 45%;
+    width: 100%;
+    margin-left: 10px;
+    
+}
+.menu2{
+    width: 100%;
+    height: 50%;
+}
+.menu1-coffee1 button{
+    height: 45px;
+    width: 90%;
+    margin-left: 20px;
+    padding-left: 80px;
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+
+.img3{
+    height: 55%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.img4{
+    height: 55%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.img5{
+    height: 55%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.img6{
+    height: 55%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.img7{
+    height: 55%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.img8{
+    height: 55%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.img9{
+    height: 55%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.download{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(241, 234, 237);
+    margin-top: 20px;
+    display: flex;
+}
+.d-icon1{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-icon2{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-icon3{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.informetion{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: black;
+    padding-top: 20px;
+}
+.infor1{
+    height: 100%;
+    width: 20%;
+    
+    
+}
+.infor1 h3{
+    color: white;
+    margin: auto;
+    margin-left: 20px;
+}
+.QR{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.infor2{
+    height: 100%;
+    width: 20%;
+}
+.p1{
+    color: white;
+    
+}
+.p2{
+    color: white;
+    
+}
+.p3{
+    color: white;
+    
+    
+}
+.p4{
+    color: white;
+    margin-left: 20px;
+    
+}
+.infor3{
+    height: 100%;
+    width: 20%;
+}
+.infor4{
+    height: 100%;
+    width: 20%;
+   
+}
+.infor5{
+    height: 100%;
+    width: 20%;
+   
+}
+.pay{
+    height: 70%;
+    width: 90%;
+    padding-right: 20px;
+}
+
+
+
+

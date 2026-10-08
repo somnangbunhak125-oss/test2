@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent1{
+    background-color: darkslategray;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 50px;
+    
+    
+    
+}
+.parent1{
+    height: 100%;
+    width: 60%;
+}
+
+.parent2 img{
+    background-color: aqua;
+    height: 280px;
+    width: 280px;
+    margin-top: ;
+    border-style: none;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.parent3 h3{
+    width: 200px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.parent3 h4{
+    font-size: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: aliceblue;
+    
+}
+.parent3 button{
+    width: 250px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: aliceblue;
+    font-weight: 900;
+    background-color: cornflowerblue;
+    border-style: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-shadow: 0 0 8px gold;
+    
+}

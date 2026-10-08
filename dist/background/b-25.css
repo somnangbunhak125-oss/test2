@@ -1,0 +1,35 @@
+.parent{
+    width:100px;
+    height: 30px;
+    background-color: aqua;
+   
+}
+.drop-down{
+    background-color: chartreuse;
+    height: 0px;
+    width: 100px;
+    opacity: 0;
+    transition: 0.3s all ease-in-out;
+   
+}
+button{
+    width:100%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.parent:hover .drop-down{
+    opacity: 1;
+    width: 100px;
+    height: 30px;
+}
+.parent:hover .icont-up{
+    transform: rotate(188deg);
+}
+.icont-up{
+    transition: all 0.3s ease-in-out ;
+}

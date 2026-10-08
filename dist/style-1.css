@@ -1,0 +1,31 @@
+.parent .text1{
+    background-color: aquamarine;
+    color: cadetblue;
+}
+
+.parent1{
+    background-color: aquamarine;
+}
+h1,span,p,del{
+    color: chartreuse;
+}
+.parent5 > h3{
+    color: darkorange;
+}
+.parent  h3{
+    color: deeppink;
+}
+*{
+    color: blueviolet;
+    background-color: aquamarine;
+}
+.parent h1{
+    background-color: burlywood;
+
+}
+.parent h1{
+    color: brown;
+}
+#text{
+    color: blueviolet;
+}

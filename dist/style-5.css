@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    width: 0;
+    box-sizing: border-box;
+}
+.text h2{
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+    margin: 500px;
+    letter-spacing: 20px;
+    padding: 200px;
+}
+
+
+ .parent p{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    border-radius: 50px;
+    border: 30px solid khaki;
+    margin: 50px;
+
+} 
+.parent h1{
+    background-color: blueviolet;
+    height: 350px;
+    width: 150px;
+    border-radius: 90px;
+    border: 20px solid seagreen;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.parent1{
+    background-color: bisque;
+    height: 400px;
+    width: 200px;
+    margin-left: 50px;
+    border: 10px solid aqua;
+    margin-top: 40px;
+    box-shadow: inset;
+    
+    
+}
+

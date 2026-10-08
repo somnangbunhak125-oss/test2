@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    background-color: aqua;
+    background-image: url(https://i.pinimg.com/originals/82/41/14/8241146bf9fdbfd1e2d226b6d73c5671.gif);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+    border: 5px solid ;
+   background-position: center;
+   background-size: cover;
+   
+    
+}
+.chile{
+    background-color: rgb(62, 243, 86);
+    height: 20%;
+    width: 20%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    border: 10px solid whitesmoke;
+    padding: 30px ;
+    
+}
